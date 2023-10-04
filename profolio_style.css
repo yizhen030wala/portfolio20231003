@@ -11,6 +11,10 @@ html, body {
   .navbar-bg-body-tertiary.navbar-top .navbar-brand-centered {
     font-size: 55px;
   }
+  section#section_me_phone .carousel{
+    height:800px
+  }
+  
   section#section_me_phone .carousel-item {
     margin-top: -150px;
   }
@@ -32,6 +36,7 @@ html, body {
   section#section_resume .accordion-item button.accordion-button {
     border: none;
     outline: none;
+    width: 170px
   }
   section#section_resume .accordion-body img {
     transform: translateX(-40%);
